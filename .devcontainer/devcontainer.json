@@ -23,7 +23,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "poetry add diagrams",
+	"postCreateCommand": "cd my-diagrams && poetry install",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
